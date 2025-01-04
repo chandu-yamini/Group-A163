@@ -3,7 +3,7 @@ star <- read.csv("6 class csv.csv")
 pdf("visualization.pdf")
 
 boxplot( Absolute.magnitude.Mv. ~ Star.type , star ,
-         main = "Boxplot of Absolute magnitude and Different type of Stars ",
+         main = "Comparision of Absolute magnitude and Different type of Stars ",
          ylab = "Absolute magnitude", 
          xlab = "Different type of Stars",
          col = c("red","yellow","pink","lightblue","green","blue"),
